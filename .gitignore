@@ -1,4 +1,11 @@
-*.swp
-spec/fixtures/*
-pkg
+pkg/
 Gemfile.lock
+vendor/
+spec/fixtures/
+.vagrant/
+.bundle/
+coverage/
+.idea/
+*.swp
+*.iml
+openstack/

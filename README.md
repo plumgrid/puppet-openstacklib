@@ -1,7 +1,8 @@
 openstacklib
 ============
 
-5.0.0 - 2014.2.0 - Juno
+7.0.0 - 2015.2 - Liberty
+
 #### Table of Contents
 
 1. [Overview - What is the openstacklib module?](#overview)
@@ -11,12 +12,11 @@ openstacklib
 5. [Limitations - OS compatibility, etc.](#limitations)
 6. [Development - Guide for contributing to the module](#development)
 7. [Contributors - Those with commits](#contributors)
-8. [Release Notes - Notes on the most recent updates to the module](#release-notes)
 
 Overview
 --------
 
-The openstacklib module is a part of [Stackforge](https://github.com/stackforge),
+The openstacklib module is a part of [OpenStack](https://github.com/openstack),
 an effort by the Openstack infrastructure team to provide continuous integration
 testing and code review for Openstack and Openstack community projects not part
 of the core software.  The module itself is used to expose common functionality
@@ -38,7 +38,7 @@ Setup
 
 ### Installing openstacklib
 
-    example% puppet module install puppetlabs/openstacklib
+    puppet module install openstack/openstacklib
 
 Usage
 -----
@@ -324,11 +324,6 @@ Puppet Module :: OpenStack Version :: OpenStack Codename
 3.0.0         -> 2013.2.0          -> Havana
 4.0.0         -> 2014.1.0          -> Icehouse
 5.0.0         -> 2014.2.0          -> Juno
+6.0.0         -> 2015.1.0          -> Kilo
+7.0.0         -> 2015.2.0          -> Liberty
 ```
-
-Release Notes
--------------
-
-**5.0.0**
-
-* This is the initial release of this module.
